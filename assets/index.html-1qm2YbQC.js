@@ -1,0 +1,8 @@
+import{_ as e,c as n,o as s,b as a}from"./app-Vnr7Qnzh.js";const i={},t=a(`<h1 id="models" tabindex="-1"><a class="header-anchor" href="#models"><span>Models</span></a></h1><p><strong>Subby</strong> uses this models:</p><div class="language-php line-numbers-mode" data-ext="php" data-title="php"><pre class="language-php"><code>Flixtechs\\Subby\\Models\\Plan<span class="token punctuation">;</span>
+Flixtechs\\Subby\\Models\\PlanCombination<span class="token punctuation">;</span>
+Flixtechs\\Subby\\Models\\PlanFeature<span class="token punctuation">;</span>
+Flixtechs\\Subby\\Models\\PlanSubscription<span class="token punctuation">;</span>
+Flixtechs\\Subby\\Models\\PlanSubscriptionFeature<span class="token punctuation">;</span>
+Flixtechs\\Subby\\Models\\PlanSubscriptionSchedule<span class="token punctuation">;</span>
+Flixtechs\\Subby\\Models\\PlanSubscriptionUsage<span class="token punctuation">;</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,3),l=[t];function o(c,d){return s(),n("div",null,l)}const p=e(i,[["render",o],["__file","index.html.vue"]]),r=JSON.parse('{"path":"/v7.x/models/","title":"Models","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1716242914000,"contributors":[{"name":"Borja Puig","email":"bdpuig@gmail.com","commits":1},{"name":"Given Ncube","email":"givenyslim12@gmail.com","commits":1}]},"filePathRelative":"v7.x/models/README.md"}');export{p as comp,r as data};
