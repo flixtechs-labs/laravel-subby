@@ -1,13 +1,12 @@
 <?php
 
-
 namespace Bpuig\Subby\Tests\Unit;
-
 
 use Bpuig\Subby\Models\Plan;
 use Bpuig\Subby\Tests\Database\Factories\UserFactory;
 use Bpuig\Subby\Tests\TestCase;
 use Illuminate\Foundation\Testing\RefreshDatabase;
+use PHPUnit\Framework\Attributes\Depends;
 
 class PlanGraceTest extends TestCase
 {
@@ -30,7 +29,7 @@ class PlanGraceTest extends TestCase
             'grace_period' => 4,
             'invoice_interval' => 'month',
             'invoice_period' => 1,
-            'tier' => 1
+            'tier' => 1,
         ]);
 
         $this->assertTrue($plan->hasGrace());
@@ -40,8 +39,8 @@ class PlanGraceTest extends TestCase
 
     /**
      * Test Subscription with grace period
-     * @depends testPlanHasGrace
      */
+    #[Depends('testPlanHasGrace')]
     public function testSubscriptionHasGrace($plan): void
     {
         $user = UserFactory::new()->create();
@@ -52,8 +51,8 @@ class PlanGraceTest extends TestCase
 
     /**
      * Test Subscription is active on grace period
-     * @depends testPlanHasGrace
      */
+    #[Depends('testPlanHasGrace')]
     public function testSubscriptionIsActiveOnGrace($plan): void
     {
         $user = UserFactory::new()->create();
@@ -69,8 +68,8 @@ class PlanGraceTest extends TestCase
 
     /**
      * Test Subscription is not active on ending grace period
-     * @depends testPlanHasGrace
      */
+    #[Depends('testPlanHasGrace')]
     public function testSubscriptionIsNotActiveOnGraceEnd($plan): void
     {
         $user = UserFactory::new()->create();
