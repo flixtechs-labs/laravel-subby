@@ -4,7 +4,7 @@
 set -e
 
 # build
-vuepress build
+yarn vuepress build
 
 # navigate into the build output directory
 cd .vuepress/dist
@@ -13,6 +13,6 @@ git init
 git add -A
 git commit -m 'deploy'
 
-git push -f git@github.com:bpuig/laravel-subby.git master:gh-pages
+git push -f git@github.com:flixtechs-labs/laravel-subby.git main:gh-pages
 
 cd -

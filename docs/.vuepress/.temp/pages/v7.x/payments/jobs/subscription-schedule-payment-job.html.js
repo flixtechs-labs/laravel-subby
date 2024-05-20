@@ -1,0 +1,3 @@
+import comp from "/home/given/Documents/PHP/laravel-subby/docs/.vuepress/.temp/pages/v7.x/payments/jobs/subscription-schedule-payment-job.html.vue"
+const data = JSON.parse("{\"path\":\"/v7.x/payments/jobs/subscription-schedule-payment-job.html\",\"title\":\"Subscription Schedule Payment\",\"lang\":\"en-US\",\"frontmatter\":{},\"headers\":[{\"level\":2,\"title\":\"What it does\",\"slug\":\"what-it-does\",\"link\":\"#what-it-does\",\"children\":[]}],\"git\":{\"updatedTime\":1654616694000,\"contributors\":[{\"name\":\"Borja Puig\",\"email\":\"bdpuig@gmail.com\",\"commits\":1}]},\"filePathRelative\":\"v7.x/payments/jobs/subscription-schedule-payment-job.md\"}")
+export { comp, data }

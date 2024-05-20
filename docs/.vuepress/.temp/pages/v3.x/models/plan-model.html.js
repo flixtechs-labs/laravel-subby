@@ -1,0 +1,3 @@
+import comp from "/home/given/Documents/PHP/laravel-subby/docs/.vuepress/.temp/pages/v3.x/models/plan-model.html.vue"
+const data = JSON.parse("{\"path\":\"/v3.x/models/plan-model.html\",\"title\":\"Plan Model\",\"lang\":\"en-US\",\"frontmatter\":{},\"headers\":[{\"level\":2,\"title\":\"Create a Plan\",\"slug\":\"create-a-plan\",\"link\":\"#create-a-plan\",\"children\":[]},{\"level\":2,\"title\":\"Get Plan details\",\"slug\":\"get-plan-details\",\"link\":\"#get-plan-details\",\"children\":[]}],\"git\":{\"updatedTime\":1716242914000,\"contributors\":[{\"name\":\"Given Ncube\",\"email\":\"givenyslim12@gmail.com\",\"commits\":1},{\"name\":\"bpuig\",\"email\":\"bdpuig@gmail.com\",\"commits\":1}]},\"filePathRelative\":\"v3.x/models/plan-model.md\"}")
+export { comp, data }
