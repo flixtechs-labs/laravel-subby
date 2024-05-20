@@ -1,9 +1,9 @@
 <?php
 
-namespace Bpuig\Subby\Traits;
+namespace Flixtechs\Subby\Traits;
 
-use Bpuig\Subby\Models\PlanSubscription;
-use Bpuig\Subby\Models\PlanSubscriptionSchedule;
+use Flixtechs\Subby\Models\PlanSubscription;
+use Flixtechs\Subby\Models\PlanSubscriptionSchedule;
 
 trait IsPaymentMethod
 {

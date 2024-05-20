@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Bpuig\Subby;
+namespace Flixtechs\Subby;
 
 use Illuminate\Support\ServiceProvider;
 

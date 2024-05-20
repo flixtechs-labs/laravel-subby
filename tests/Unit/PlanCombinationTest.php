@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Bpuig\Subby\Tests\Unit;
+namespace Flixtechs\Subby\Tests\Unit;
 
 
-use Bpuig\Subby\Tests\TestCase;
+use Flixtechs\Subby\Tests\TestCase;
 
 class PlanCombinationTest extends TestCase
 {

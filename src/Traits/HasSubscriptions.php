@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Bpuig\Subby\Traits;
+namespace Flixtechs\Subby\Traits;
 
-use Bpuig\Subby\Exceptions\DuplicateException;
-use Bpuig\Subby\Exceptions\InvalidPlanSubscription;
-use Bpuig\Subby\Models\Plan;
-use Bpuig\Subby\Models\PlanCombination;
-use Bpuig\Subby\Models\PlanSubscription;
-use Bpuig\Subby\Services\SubscriptionPeriod;
+use Flixtechs\Subby\Exceptions\DuplicateException;
+use Flixtechs\Subby\Exceptions\InvalidPlanSubscription;
+use Flixtechs\Subby\Models\Plan;
+use Flixtechs\Subby\Models\PlanCombination;
+use Flixtechs\Subby\Models\PlanSubscription;
+use Flixtechs\Subby\Services\SubscriptionPeriod;
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
@@ -87,7 +87,7 @@ trait HasSubscriptions
     /**
      * Get subscribed plans.
      *
-     * @return \Bpuig\Subby\Models\PlanSubscription|null
+     * @return \Flixtechs\Subby\Models\PlanSubscription|null
      */
     public function subscribedPlans()
     {
@@ -114,7 +114,7 @@ trait HasSubscriptions
      * Subscribe subscriber to a new plan.
      *
      * @param string $tag Identifier tag for the subscription
-     * @param \Bpuig\Subby\Models\Plan|\Bpuig\Subby\Models\PlanCombination $planCombination Plan pricing and invoice data
+     * @param \Flixtechs\Subby\Models\Plan|\Flixtechs\Subby\Models\PlanCombination $planCombination Plan pricing and invoice data
      * @param string|null $name Human readable name for your subscriber's subscription
      * @param string|null $description Description for the subscription
      * @param \Carbon\Carbon|null $startDate When will the subscription start

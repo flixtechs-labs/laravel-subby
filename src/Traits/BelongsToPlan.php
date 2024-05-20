@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Bpuig\Subby\Traits;
+namespace Flixtechs\Subby\Traits;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;

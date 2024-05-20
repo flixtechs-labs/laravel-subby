@@ -1,11 +1,11 @@
 <?php
 
 
-namespace Bpuig\Subby\Traits;
+namespace Flixtechs\Subby\Traits;
 
 
-use Bpuig\Subby\Helpers\CarbonHelper;
-use Bpuig\Subby\Services\Period;
+use Flixtechs\Subby\Helpers\CarbonHelper;
+use Flixtechs\Subby\Services\Period;
 use Carbon\Carbon;
 
 trait HasTrialPeriod

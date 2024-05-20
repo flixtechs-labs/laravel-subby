@@ -1,9 +1,9 @@
 <?php
 
-namespace Bpuig\Subby\Tests\Database\Factories;
+namespace Flixtechs\Subby\Tests\Database\Factories;
 
 
-use Bpuig\Subby\Tests\Models\User;
+use Flixtechs\Subby\Tests\Models\User;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Support\Str;
 

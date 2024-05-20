@@ -1,8 +1,8 @@
 <?php
 
-namespace Bpuig\Subby\Tests\Models;
+namespace Flixtechs\Subby\Tests\Models;
 
-use Bpuig\Subby\Traits\HasSubscriptions;
+use Flixtechs\Subby\Traits\HasSubscriptions;
 use Illuminate\Database\Eloquent\Model;
 
 class User extends Model

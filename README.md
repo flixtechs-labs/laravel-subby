@@ -7,21 +7,21 @@ changes.
 
 Originally forked from [rinvex/laravel-subscriptions](https://github.com/rinvex/laravel-subscriptions).
 
+## Installation
+While I'm still working on the documentation, you can install this package with
+
+```bash
+composer require flixtechs/laravel-subby
+```
+
+Everything else follow this documentation
+
 ## Documentation
 Find here the [documentation](https://bpuig.github.io/laravel-subby/).
 
 ## Version Compatibility
 
-Current stable version is v7. Click on each version to read documentation.
-
-| Laravel | Laravel Subby                                                                                                                                                 |
-|:--------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 10.x    | [v7.x](https://bpuig.github.io/laravel-subby/v7.x/)                                                                                                                                                               |
-| 9.x     | [v6.x](https://bpuig.github.io/laravel-subby/v6.x/), [v7.x](https://bpuig.github.io/laravel-subby/v7.x/)                                                      |
-| 8.x     | [v3.x](https://bpuig.github.io/laravel-subby/v3.x/), [v4.x](https://bpuig.github.io/laravel-subby/v4.x/), [v5.x](https://bpuig.github.io/laravel-subby/v5.x/) |
-| 7.x     | [v4.x](https://bpuig.github.io/laravel-subby/v4.x/)                                                                                                           |
-| 6.x     | [v4.x](https://bpuig.github.io/laravel-subby/v4.x/)                                                                                                           |
-
+Current stable version is v1.x and is compatible with laravel 7 to 11 
 ## Changelog
 
 Refer to the [Releases](https://github.com/bpuig/laravel-subby/releases) for a changelog of the project.

@@ -2,19 +2,19 @@
 
 declare(strict_types=1);
 
-namespace Bpuig\Subby\Models;
+namespace Flixtechs\Subby\Models;
 
 use BadMethodCallException;
-use Bpuig\Subby\Exceptions\UsageDenied;
-use Bpuig\Subby\Services\Period;
-use Bpuig\Subby\Traits\BelongsToPlan;
-use Bpuig\Subby\Traits\HasFeatures;
-use Bpuig\Subby\Traits\HasGracePeriod;
-use Bpuig\Subby\Traits\HasGracePeriodUsage;
-use Bpuig\Subby\Traits\HasPricing;
-use Bpuig\Subby\Traits\HasSubscriptionPeriodUsage;
-use Bpuig\Subby\Traits\HasTrialPeriodUsage;
-use Bpuig\Subby\Traits\HasSchedules;
+use Flixtechs\Subby\Exceptions\UsageDenied;
+use Flixtechs\Subby\Services\Period;
+use Flixtechs\Subby\Traits\BelongsToPlan;
+use Flixtechs\Subby\Traits\HasFeatures;
+use Flixtechs\Subby\Traits\HasGracePeriod;
+use Flixtechs\Subby\Traits\HasGracePeriodUsage;
+use Flixtechs\Subby\Traits\HasPricing;
+use Flixtechs\Subby\Traits\HasSubscriptionPeriodUsage;
+use Flixtechs\Subby\Traits\HasTrialPeriodUsage;
+use Flixtechs\Subby\Traits\HasSchedules;
 use Carbon\Carbon;
 use DB;
 use Illuminate\Database\Eloquent\Builder;
@@ -572,7 +572,7 @@ class PlanSubscription extends Model
      * @param string $featureTag
      * @param int $uses
      *
-     * @return \Bpuig\Subby\Models\PlanSubscriptionUsage|null
+     * @return \Flixtechs\Subby\Models\PlanSubscriptionUsage|null
      */
     public function reduceFeatureUsage(string $featureTag, int $uses = 1): ?PlanSubscriptionUsage
     {

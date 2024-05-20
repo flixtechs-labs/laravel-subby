@@ -1,12 +1,12 @@
 <?php
 
 
-namespace Bpuig\Subby\Tests\Unit;
+namespace Flixtechs\Subby\Tests\Unit;
 
 
-use Bpuig\Subby\Services\PendingPaymentCollector;
-use Bpuig\Subby\Tests\Database\Factories\UserFactory;
-use Bpuig\Subby\Tests\TestCase;
+use Flixtechs\Subby\Services\PendingPaymentCollector;
+use Flixtechs\Subby\Tests\Database\Factories\UserFactory;
+use Flixtechs\Subby\Tests\TestCase;
 use Carbon\Carbon;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 

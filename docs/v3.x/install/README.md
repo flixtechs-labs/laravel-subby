@@ -49,12 +49,12 @@ Find breaking changes in changelog.
 ## Attach Subscriptions to model<a name="attach-subscription"></a>
 
 **Laravel Subby** has been specially made for Eloquent. To add Subscription functionality to your User model just use
-the `\Bpuig\Subby\Traits\HasSubscriptions` trait like this:
+the `\Flixtechs\Subby\Traits\HasSubscriptions` trait like this:
 
 ```php
 namespace App\Models;
 
-use Bpuig\Subby\Traits\HasSubscriptions;
+use Flixtechs\Subby\Traits\HasSubscriptions;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 
 class User extends Authenticatable

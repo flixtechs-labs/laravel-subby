@@ -18,18 +18,18 @@ return [
 
     // Models
     'models' => [
-        'plan' => \Bpuig\Subby\Models\Plan::class,
-        'plan_combination' => \Bpuig\Subby\Models\PlanCombination::class,
-        'plan_feature' => \Bpuig\Subby\Models\PlanFeature::class,
-        'plan_subscription' => \Bpuig\Subby\Models\PlanSubscription::class,
-        'plan_subscription_feature' => \Bpuig\Subby\Models\PlanSubscriptionFeature::class,
-        'plan_subscription_schedule' => \Bpuig\Subby\Models\PlanSubscriptionSchedule::class,
-        'plan_subscription_usage' => \Bpuig\Subby\Models\PlanSubscriptionUsage::class,
+        'plan' => \Flixtechs\Subby\Models\Plan::class,
+        'plan_combination' => \Flixtechs\Subby\Models\PlanCombination::class,
+        'plan_feature' => \Flixtechs\Subby\Models\PlanFeature::class,
+        'plan_subscription' => \Flixtechs\Subby\Models\PlanSubscription::class,
+        'plan_subscription_feature' => \Flixtechs\Subby\Models\PlanSubscriptionFeature::class,
+        'plan_subscription_schedule' => \Flixtechs\Subby\Models\PlanSubscriptionSchedule::class,
+        'plan_subscription_usage' => \Flixtechs\Subby\Models\PlanSubscriptionUsage::class,
     ],
 
     'services' => [
         'payment_methods' => [
-            'free' => \Bpuig\Subby\Services\PaymentMethods\Free::class
+            'free' => \Flixtechs\Subby\Services\PaymentMethods\Free::class
         ]
     ]
 ];

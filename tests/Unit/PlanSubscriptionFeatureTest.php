@@ -1,11 +1,11 @@
 <?php
 
 
-namespace Bpuig\Subby\Tests\Unit;
+namespace Flixtechs\Subby\Tests\Unit;
 
 
-use Bpuig\Subby\Models\PlanSubscriptionFeature;
-use Bpuig\Subby\Tests\TestCase;
+use Flixtechs\Subby\Models\PlanSubscriptionFeature;
+use Flixtechs\Subby\Tests\TestCase;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 
 class PlanSubscriptionFeatureTest extends TestCase

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Bpuig\Subby\Tests\Services\PaymentMethods;
+namespace Flixtechs\Subby\Tests\Services\PaymentMethods;
 
-use Bpuig\Subby\Contracts\PaymentMethodService;
-use Bpuig\Subby\Traits\IsPaymentMethod;
+use Flixtechs\Subby\Contracts\PaymentMethodService;
+use Flixtechs\Subby\Traits\IsPaymentMethod;
 
 class FailedPaymentMethod implements PaymentMethodService
 {

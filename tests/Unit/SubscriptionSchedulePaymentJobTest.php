@@ -1,13 +1,13 @@
 <?php
 
 
-namespace Bpuig\Subby\Tests\Unit;
+namespace Flixtechs\Subby\Tests\Unit;
 
 
-use Bpuig\Subby\Jobs\SubscriptionRenewalPaymentJob;
-use Bpuig\Subby\Jobs\SubscriptionSchedulePaymentJob;
-use Bpuig\Subby\Services\PendingPaymentCollector;
-use Bpuig\Subby\Tests\TestCase;
+use Flixtechs\Subby\Jobs\SubscriptionRenewalPaymentJob;
+use Flixtechs\Subby\Jobs\SubscriptionSchedulePaymentJob;
+use Flixtechs\Subby\Services\PendingPaymentCollector;
+use Flixtechs\Subby\Tests\TestCase;
 use Carbon\Carbon;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 

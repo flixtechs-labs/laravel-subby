@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Bpuig\Subby\Traits;
+namespace Flixtechs\Subby\Traits;
 
 
-use Bpuig\Subby\Services\Period;
+use Flixtechs\Subby\Services\Period;
 use Carbon\Carbon;
 
 trait HasResetDate

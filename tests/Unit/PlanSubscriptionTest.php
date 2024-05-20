@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Bpuig\Subby\Tests\Unit;
+namespace Flixtechs\Subby\Tests\Unit;
 
 
-use Bpuig\Subby\Tests\TestCase;
+use Flixtechs\Subby\Tests\TestCase;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\QueryException;
 use Illuminate\Foundation\Testing\RefreshDatabase;
@@ -19,7 +19,7 @@ class PlanSubscriptionTest extends TestCase
      */
     public function testUnableToCreatePlanSubscriptionWithExistingTag()
     {
-        $this->expectException('Bpuig\Subby\Exceptions\DuplicateException');
+        $this->expectException('Flixtechs\Subby\Exceptions\DuplicateException');
         $this->testUser->newSubscription('main', $this->testPlanBasic, 'Test');
     }
 
@@ -128,7 +128,7 @@ class PlanSubscriptionTest extends TestCase
      */
     public function testNonExistingSubscriptionException()
     {
-        $this->expectException('Bpuig\Subby\Exceptions\InvalidPlanSubscription');
+        $this->expectException('Flixtechs\Subby\Exceptions\InvalidPlanSubscription');
         $this->testUser->subscription('secondary');
     }
 

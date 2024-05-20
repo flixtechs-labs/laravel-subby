@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Bpuig\Subby\Helpers;
+namespace Flixtechs\Subby\Helpers;
 
 
 class CarbonHelper

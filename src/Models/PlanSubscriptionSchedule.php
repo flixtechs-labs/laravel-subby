@@ -1,13 +1,13 @@
 <?php
 
-namespace Bpuig\Subby\Models;
+namespace Flixtechs\Subby\Models;
 
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Model;
 
 /**
  * Class PlanSubscriptionSchedule
- * @package Bpuig\Subby\Models
+ * @package Flixtechs\Subby\Models
  *
  * @property integer $id
  * @property integer $subscription_id

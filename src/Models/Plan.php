@@ -2,22 +2,22 @@
 
 declare(strict_types=1);
 
-namespace Bpuig\Subby\Models;
+namespace Flixtechs\Subby\Models;
 
-use Bpuig\Subby\Exceptions\DuplicateException;
-use Bpuig\Subby\Traits\HasFeatures;
-use Bpuig\Subby\Traits\HasGracePeriod;
-use Bpuig\Subby\Traits\HasPricing;
-use Bpuig\Subby\Traits\HasSubscriptionPeriod;
-use Bpuig\Subby\Traits\HasTrialPeriod;
-use Bpuig\Subby\Traits\MorphsSchedules;
+use Flixtechs\Subby\Exceptions\DuplicateException;
+use Flixtechs\Subby\Traits\HasFeatures;
+use Flixtechs\Subby\Traits\HasGracePeriod;
+use Flixtechs\Subby\Traits\HasPricing;
+use Flixtechs\Subby\Traits\HasSubscriptionPeriod;
+use Flixtechs\Subby\Traits\HasTrialPeriod;
+use Flixtechs\Subby\Traits\MorphsSchedules;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
 /**
  * Class Plan
- * @package Bpuig\Subby\Models
+ * @package Flixtechs\Subby\Models
  */
 class Plan extends Model
 {

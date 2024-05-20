@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Bpuig\Subby\Models;
+namespace Flixtechs\Subby\Models;
 
-use Bpuig\Subby\Traits\BelongsToPlan;
-use Bpuig\Subby\Traits\MorphsSchedules;
+use Flixtechs\Subby\Traits\BelongsToPlan;
+use Flixtechs\Subby\Traits\MorphsSchedules;
 use Illuminate\Contracts\Validation\Rule;
 use Illuminate\Database\Eloquent\Model;
 
 /**
  * Class Plan Combination
- * @package Bpuig\Subby\Models
+ * @package Flixtechs\Subby\Models
  */
 class PlanCombination extends Model
 {

@@ -79,11 +79,11 @@ process has to set it to `true`. Any exception will stop the process.
 <?php
 
 
-namespace Bpuig\Subby\Services;
+namespace Flixtechs\Subby\Services;
 
 
-use Bpuig\Subby\Contracts\PlanSubscriptionScheduleService;
-use Bpuig\Subby\Traits\IsScheduleService;
+use Flixtechs\Subby\Contracts\PlanSubscriptionScheduleService;
+use Flixtechs\Subby\Traits\IsScheduleService;
 
 class ScheduleService implements PlanSubscriptionScheduleService
 {

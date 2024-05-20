@@ -24,11 +24,11 @@ Merge this lines into your current config.
     'plan_subscription_schedules' => 'plan_subscription_schedules'
 ],
 'models' => [
-    'plan_subscription_schedule' => \Bpuig\Subby\Models\PlanSubscriptionSchedule::class,
+    'plan_subscription_schedule' => \Flixtechs\Subby\Models\PlanSubscriptionSchedule::class,
 ],
 'services' => [
     'schedule' => [
-        'default' => \Bpuig\Subby\Services\ScheduleService::class
+        'default' => \Flixtechs\Subby\Services\ScheduleService::class
     ]
 ]
 ```

@@ -1,10 +1,10 @@
 <?php
 
 
-namespace Bpuig\Subby\Traits;
+namespace Flixtechs\Subby\Traits;
 
 
-use Bpuig\Subby\Helpers\CarbonHelper;
+use Flixtechs\Subby\Helpers\CarbonHelper;
 use Illuminate\Support\Carbon;
 
 trait HasSubscriptionPeriodUsage

@@ -1,10 +1,10 @@
 <?php
 
-namespace Bpuig\Subby\Jobs;
+namespace Flixtechs\Subby\Jobs;
 
-use Bpuig\Subby\Models\PlanSubscription;
-use Bpuig\Subby\Models\PlanSubscriptionSchedule;
-use Bpuig\Subby\Services\PendingPaymentCollector;
+use Flixtechs\Subby\Models\PlanSubscription;
+use Flixtechs\Subby\Models\PlanSubscriptionSchedule;
+use Flixtechs\Subby\Services\PendingPaymentCollector;
 use Carbon\Carbon;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;

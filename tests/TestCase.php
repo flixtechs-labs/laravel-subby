@@ -1,11 +1,11 @@
 <?php
 
-namespace Bpuig\Subby\Tests;
+namespace Flixtechs\Subby\Tests;
 
-use Bpuig\Subby\Models\Plan;
-use Bpuig\Subby\Models\PlanFeature;
-use Bpuig\Subby\Tests\Database\Factories\UserFactory;
-use Bpuig\Subby\SubbyServiceProvider;
+use Flixtechs\Subby\Models\Plan;
+use Flixtechs\Subby\Models\PlanFeature;
+use Flixtechs\Subby\Tests\Database\Factories\UserFactory;
+use Flixtechs\Subby\SubbyServiceProvider;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Orchestra\Testbench\Concerns\WithWorkbench;
 
@@ -50,18 +50,18 @@ class TestCase extends \Orchestra\Testbench\TestCase
             ],
             // Models
             'models' => [
-                'plan' => \Bpuig\Subby\Models\Plan::class,
-                'plan_combination' => \Bpuig\Subby\Models\PlanCombination::class,
-                'plan_feature' => \Bpuig\Subby\Models\PlanFeature::class,
-                'plan_subscription' => \Bpuig\Subby\Models\PlanSubscription::class,
-                'plan_subscription_feature' => \Bpuig\Subby\Models\PlanSubscriptionFeature::class,
-                'plan_subscription_schedule' => \Bpuig\Subby\Models\PlanSubscriptionSchedule::class,
-                'plan_subscription_usage' => \Bpuig\Subby\Models\PlanSubscriptionUsage::class,
+                'plan' => \Flixtechs\Subby\Models\Plan::class,
+                'plan_combination' => \Flixtechs\Subby\Models\PlanCombination::class,
+                'plan_feature' => \Flixtechs\Subby\Models\PlanFeature::class,
+                'plan_subscription' => \Flixtechs\Subby\Models\PlanSubscription::class,
+                'plan_subscription_feature' => \Flixtechs\Subby\Models\PlanSubscriptionFeature::class,
+                'plan_subscription_schedule' => \Flixtechs\Subby\Models\PlanSubscriptionSchedule::class,
+                'plan_subscription_usage' => \Flixtechs\Subby\Models\PlanSubscriptionUsage::class,
             ],
             'services' => [
                 'payment_methods' => [
-                    'success' => \Bpuig\Subby\Tests\Services\PaymentMethods\SucceededPaymentMethod::class,
-                    'fail' => \Bpuig\Subby\Tests\Services\PaymentMethods\FailedPaymentMethod::class,
+                    'success' => \Flixtechs\Subby\Tests\Services\PaymentMethods\SucceededPaymentMethod::class,
+                    'fail' => \Flixtechs\Subby\Tests\Services\PaymentMethods\FailedPaymentMethod::class,
                 ],
             ],
         ]);

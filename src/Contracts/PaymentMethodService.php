@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Bpuig\Subby\Contracts;
+namespace Flixtechs\Subby\Contracts;
 
 
 interface PaymentMethodService

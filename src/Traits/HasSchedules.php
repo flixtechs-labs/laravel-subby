@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace Bpuig\Subby\Traits;
+namespace Flixtechs\Subby\Traits;
 
-use Bpuig\Subby\Models\Plan;
-use Bpuig\Subby\Models\PlanCombination;
+use Flixtechs\Subby\Models\Plan;
+use Flixtechs\Subby\Models\PlanCombination;
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 
@@ -45,7 +45,7 @@ trait HasSchedules
      *
      * @param Plan|PlanCombination $planCombination Plan or PlanCombination that will be the new one
      *
-     * @return HasSchedules|\Bpuig\Subby\Models\PlanSubscription
+     * @return HasSchedules|\Flixtechs\Subby\Models\PlanSubscription
      */
     public function toPlan(Plan|PlanCombination $planCombination): self
     {

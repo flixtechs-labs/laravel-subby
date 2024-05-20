@@ -1,12 +1,12 @@
 <?php
 
 
-namespace Bpuig\Subby\Tests\Unit;
+namespace Flixtechs\Subby\Tests\Unit;
 
 
-use Bpuig\Subby\Models\Plan;
-use Bpuig\Subby\Models\PlanSubscriptionSchedule;
-use Bpuig\Subby\Tests\TestCase;
+use Flixtechs\Subby\Models\Plan;
+use Flixtechs\Subby\Models\PlanSubscriptionSchedule;
+use Flixtechs\Subby\Tests\TestCase;
 use Carbon\Carbon;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 
@@ -56,7 +56,7 @@ class PlanSubscriptionScheduleTest extends TestCase
     public function testScheduleCreationWithWrongPlan()
     {
         $date = Carbon::now()->add(5, 'day');
-        $this->expectExceptionMessage('Argument #1 ($planCombination) must be of type Bpuig\Subby\Models\Plan|Bpuig\Subby\Models\PlanCombination');
+        $this->expectExceptionMessage('Argument #1 ($planCombination) must be of type Flixtechs\Subby\Models\Plan|Flixtechs\Subby\Models\PlanCombination');
         $this->testUser->subscription('main')->toPlan('test')->onDate($date)->setSchedule();
     }
 

@@ -1,11 +1,11 @@
 <?php
 
 
-namespace Bpuig\Subby\Tests\Unit;
+namespace Flixtechs\Subby\Tests\Unit;
 
 
-use Bpuig\Subby\Models\Plan;
-use Bpuig\Subby\Tests\TestCase;
+use Flixtechs\Subby\Models\Plan;
+use Flixtechs\Subby\Tests\TestCase;
 
 class PlanTest extends TestCase
 {
@@ -14,7 +14,7 @@ class PlanTest extends TestCase
      */
     public function testUnableToCreatePlanWithExistingTag()
     {
-        $this->expectException('Bpuig\Subby\Exceptions\DuplicateException');
+        $this->expectException('Flixtechs\Subby\Exceptions\DuplicateException');
         Plan::create([
             'tag' => 'basic',
             'name' => 'New Basic Plan',

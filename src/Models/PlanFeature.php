@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Bpuig\Subby\Models;
+namespace Flixtechs\Subby\Models;
 
-use Bpuig\Subby\Traits\BelongsToPlan;
-use Bpuig\Subby\Traits\HasResetDate;
+use Flixtechs\Subby\Traits\BelongsToPlan;
+use Flixtechs\Subby\Traits\HasResetDate;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Validation\Rule;

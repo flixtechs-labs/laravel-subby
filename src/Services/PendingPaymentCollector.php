@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Bpuig\Subby\Services;
+namespace Flixtechs\Subby\Services;
 
-use Bpuig\Subby\Models\PlanSubscription;
-use Bpuig\Subby\Models\PlanSubscriptionSchedule;
+use Flixtechs\Subby\Models\PlanSubscription;
+use Flixtechs\Subby\Models\PlanSubscriptionSchedule;
 use Carbon\Carbon;
 
 class PendingPaymentCollector

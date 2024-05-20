@@ -1,8 +1,8 @@
 <?php
 
-namespace Bpuig\Subby\Jobs;
+namespace Flixtechs\Subby\Jobs;
 
-use Bpuig\Subby\Models\PlanSubscriptionSchedule;
+use Flixtechs\Subby\Models\PlanSubscriptionSchedule;
 use http\Exception\InvalidArgumentException;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;

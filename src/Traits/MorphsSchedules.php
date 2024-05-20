@@ -1,6 +1,6 @@
 <?php
 
-namespace Bpuig\Subby\Traits;
+namespace Flixtechs\Subby\Traits;
 
 trait MorphsSchedules
 {

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Bpuig\Subby\Services;
+namespace Flixtechs\Subby\Services;
 
-use Bpuig\Subby\Models\Plan;
-use Bpuig\Subby\Models\PlanCombination;
+use Flixtechs\Subby\Models\Plan;
+use Flixtechs\Subby\Models\PlanCombination;
 use Carbon\Carbon;
 
 /**
@@ -13,7 +13,7 @@ use Carbon\Carbon;
  *
  * Intermediate class to calculate subscription periods accounting trial
  *
- * @package Bpuig\Subby\Services
+ * @package Flixtechs\Subby\Services
  */
 class SubscriptionPeriod
 {

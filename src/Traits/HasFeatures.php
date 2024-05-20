@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Bpuig\Subby\Traits;
+namespace Flixtechs\Subby\Traits;
 
 
 use Illuminate\Database\Eloquent\Model;
